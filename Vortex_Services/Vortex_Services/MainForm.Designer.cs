@@ -78,7 +78,7 @@ namespace Vortex_Services
             // 
             // indicator
             // 
-            this.indicator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.indicator.BackColor = System.Drawing.Color.Black;
             this.indicator.Location = new System.Drawing.Point(0, 70);
             this.indicator.Name = "indicator";
             this.indicator.Size = new System.Drawing.Size(10, 59);

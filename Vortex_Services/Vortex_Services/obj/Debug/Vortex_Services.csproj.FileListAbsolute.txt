@@ -56,3 +56,30 @@ E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Faina
 E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CopyComplete
 E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe
 E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.exe.config
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.exe
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\FontAwesome.Sharp.dll
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Guna.UI2.dll
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Bunifu.Licensing.dll
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.AssemblyReference.cache
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_in.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_out.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Home.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.MainForm.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Ongoing.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Properties.Resources.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.SearchV.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.splash_screen.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.UpdateV.resources
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.GenerateResource.cache
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe.licenses
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CoreCompileInputs.cache
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CopyComplete
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe
+D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb
