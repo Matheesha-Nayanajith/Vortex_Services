@@ -29,3 +29,30 @@ C:\Users\admin\source\repos\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Ser
 C:\Users\admin\source\repos\Vortex_Services\Vortex_Services\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
 C:\Users\admin\source\repos\Vortex_Services\Vortex_Services\bin\Debug\Bunifu.Licensing.dll
 C:\Users\admin\source\repos\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe.licenses
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.exe.config
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.exe
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.pdb
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\FontAwesome.Sharp.dll
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Guna.UI2.dll
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Bunifu.Licensing.dll
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.AssemblyReference.cache
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_in.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_out.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Home.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.MainForm.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Ongoing.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Properties.Resources.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.SearchV.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.splash_screen.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.UpdateV.resources
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.GenerateResource.cache
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe.licenses
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CoreCompileInputs.cache
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CopyComplete
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe
+E:\Campus Works\SECOND YEAR\Second Semester\Enterprize Systems\C# Projects\Fainal Assigment\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb

@@ -54,6 +54,9 @@
     <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.2.1, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2.1\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -105,6 +108,12 @@
     <Compile Include="SearchV.Designer.cs">
       <DependentUpon>SearchV.cs</DependentUpon>
     </Compile>
+    <Compile Include="splash_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash_screen.Designer.cs">
+      <DependentUpon>splash_screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateV.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -139,6 +148,9 @@
     </Compile>
     <EmbeddedResource Include="SearchV.resx">
       <DependentUpon>SearchV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash_screen.resx">
+      <DependentUpon>splash_screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateV.resx">
       <DependentUpon>UpdateV.cs</DependentUpon>
