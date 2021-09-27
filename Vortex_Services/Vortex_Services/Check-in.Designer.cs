@@ -51,6 +51,8 @@ namespace Vortex_Services
             this.label9 = new System.Windows.Forms.Label();
             this.reset = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.add = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // vehicleno
@@ -297,7 +299,7 @@ namespace Vortex_Services
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(43, 43);
+            this.label9.Location = new System.Drawing.Point(43, 41);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(150, 39);
             this.label9.TabIndex = 15;
@@ -376,11 +378,11 @@ namespace Vortex_Services
             this.reset.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.reset.OnIdleState.IconLeftImage = null;
             this.reset.OnIdleState.IconRightImage = null;
-            this.reset.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.reset.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.reset.OnPressedState.BorderRadius = 15;
             this.reset.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.reset.OnPressedState.BorderThickness = 1;
-            this.reset.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.reset.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.reset.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.reset.OnPressedState.IconLeftImage = null;
             this.reset.OnPressedState.IconRightImage = null;
@@ -465,11 +467,11 @@ namespace Vortex_Services
             this.add.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.add.OnIdleState.IconLeftImage = null;
             this.add.OnIdleState.IconRightImage = null;
-            this.add.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(211)))), ((int)(((byte)(63)))));
+            this.add.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
             this.add.OnPressedState.BorderRadius = 15;
             this.add.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.add.OnPressedState.BorderThickness = 1;
-            this.add.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(211)))), ((int)(((byte)(63)))));
+            this.add.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
             this.add.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.add.OnPressedState.IconLeftImage = null;
             this.add.OnPressedState.IconRightImage = null;
@@ -481,11 +483,21 @@ namespace Vortex_Services
             this.add.TextPadding = new System.Windows.Forms.Padding(0);
             this.add.UseDefaultRadiusAndThickness = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
+            this.pictureBox1.Location = new System.Drawing.Point(50, 79);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(157, 6);
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // Check_in
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.add);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.label9);
@@ -507,6 +519,7 @@ namespace Vortex_Services
             this.Controls.Add(this.vehicleno);
             this.Name = "Check_in";
             this.Size = new System.Drawing.Size(931, 685);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -533,5 +546,6 @@ namespace Vortex_Services
         private System.Windows.Forms.Label label9;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton reset;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton add;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

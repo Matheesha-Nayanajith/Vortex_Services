@@ -83,3 +83,36 @@ D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debu
 D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CopyComplete
 D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe
 D:\Year02_sem2\C#\Final\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.exe.config
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.exe
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_Services.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Docking.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\FontAwesome.Sharp.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Guna.UI2.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Bunifu.Licensing.dll
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.AssemblyReference.cache
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_in.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_out.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Home.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.MainForm.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Ongoing.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Properties.Resources.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.SearchV.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.splash_screen.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.UpdateV.resources
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.GenerateResource.cache
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe.licenses
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CoreCompileInputs.cache
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CopyComplete
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe
+D:\Git\C# project\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb

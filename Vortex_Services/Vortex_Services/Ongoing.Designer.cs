@@ -36,16 +36,18 @@ namespace Vortex_Services
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.search = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.reset = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(43, 43);
+            this.label9.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(43, 41);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(292, 38);
+            this.label9.Size = new System.Drawing.Size(278, 39);
             this.label9.TabIndex = 18;
             this.label9.Text = "Ongoing Services";
             // 
@@ -53,11 +55,11 @@ namespace Vortex_Services
             // 
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(50, 105);
+            this.dataGridView1.Location = new System.Drawing.Point(50, 113);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(831, 413);
+            this.dataGridView1.Size = new System.Drawing.Size(831, 405);
             this.dataGridView1.TabIndex = 19;
             // 
             // search
@@ -89,7 +91,7 @@ namespace Vortex_Services
             this.search.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.search.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.search.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search.ForeColor = System.Drawing.Color.White;
             this.search.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.search.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -133,11 +135,11 @@ namespace Vortex_Services
             this.search.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.search.OnIdleState.IconLeftImage = null;
             this.search.OnIdleState.IconRightImage = null;
-            this.search.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(211)))), ((int)(((byte)(63)))));
+            this.search.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
             this.search.OnPressedState.BorderRadius = 15;
             this.search.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.search.OnPressedState.BorderThickness = 1;
-            this.search.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(211)))), ((int)(((byte)(63)))));
+            this.search.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
             this.search.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.search.OnPressedState.IconLeftImage = null;
             this.search.OnPressedState.IconRightImage = null;
@@ -178,7 +180,7 @@ namespace Vortex_Services
             this.reset.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.reset.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.reset.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset.ForeColor = System.Drawing.Color.White;
             this.reset.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.reset.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -222,11 +224,11 @@ namespace Vortex_Services
             this.reset.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.reset.OnIdleState.IconLeftImage = null;
             this.reset.OnIdleState.IconRightImage = null;
-            this.reset.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.reset.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.reset.OnPressedState.BorderRadius = 15;
             this.reset.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.reset.OnPressedState.BorderThickness = 1;
-            this.reset.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.reset.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.reset.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.reset.OnPressedState.IconLeftImage = null;
             this.reset.OnPressedState.IconRightImage = null;
@@ -238,11 +240,21 @@ namespace Vortex_Services
             this.reset.TextPadding = new System.Windows.Forms.Padding(0);
             this.reset.UseDefaultRadiusAndThickness = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
+            this.pictureBox1.Location = new System.Drawing.Point(50, 79);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(266, 6);
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
             // Ongoing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.search);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.dataGridView1);
@@ -250,6 +262,7 @@ namespace Vortex_Services
             this.Name = "Ongoing";
             this.Size = new System.Drawing.Size(931, 685);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,5 +274,6 @@ namespace Vortex_Services
         private System.Windows.Forms.DataGridView dataGridView1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton search;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton reset;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

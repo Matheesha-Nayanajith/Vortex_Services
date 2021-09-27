@@ -32,5 +32,10 @@ namespace Vortex_Services
         {
             InitializeComponent();
         }
+
+        private void site_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Matheesha-Nayanajith/Vortex_Services");
+        }
     }
 }
