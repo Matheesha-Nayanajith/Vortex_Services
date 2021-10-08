@@ -31,28 +31,28 @@ namespace Vortex_Services
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.indicator = new System.Windows.Forms.PictureBox();
-            this.checkout = new FontAwesome.Sharp.IconButton();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.vehicle = new FontAwesome.Sharp.IconButton();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.update = new FontAwesome.Sharp.IconButton();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.search = new FontAwesome.Sharp.IconButton();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.checkin = new FontAwesome.Sharp.IconButton();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.home = new FontAwesome.Sharp.IconButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mainpanel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.indicator = new System.Windows.Forms.PictureBox();
+            this.checkout = new FontAwesome.Sharp.IconButton();
+            this.vehicle = new FontAwesome.Sharp.IconButton();
+            this.update = new FontAwesome.Sharp.IconButton();
+            this.search = new FontAwesome.Sharp.IconButton();
+            this.checkin = new FontAwesome.Sharp.IconButton();
+            this.home = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,6 +76,96 @@ namespace Vortex_Services
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(93, 729);
             this.panel1.TabIndex = 0;
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 565);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(93, 50);
+            this.panel9.TabIndex = 10;
+            // 
+            // panel8
+            // 
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 456);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(93, 50);
+            this.panel8.TabIndex = 8;
+            // 
+            // panel7
+            // 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 347);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(93, 50);
+            this.panel7.TabIndex = 6;
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 238);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(93, 50);
+            this.panel6.TabIndex = 4;
+            // 
+            // panel5
+            // 
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 129);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(93, 50);
+            this.panel5.TabIndex = 2;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(93, 70);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(93, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1042, 44);
+            this.panel2.TabIndex = 1;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMove);
+            this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(972, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(70, 44);
+            this.panel3.TabIndex = 0;
+            // 
+            // mainpanel
+            // 
+            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainpanel.Location = new System.Drawing.Point(93, 44);
+            this.mainpanel.Name = "mainpanel";
+            this.mainpanel.Size = new System.Drawing.Size(1042, 685);
+            this.mainpanel.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Vortex_Services.Properties.Resources.Group;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(70, 44);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // indicator
             // 
@@ -101,14 +191,6 @@ namespace Vortex_Services
             this.checkout.UseVisualStyleBackColor = true;
             this.checkout.Click += new System.EventHandler(this.checkout_Click);
             // 
-            // panel9
-            // 
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 565);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(93, 50);
-            this.panel9.TabIndex = 10;
-            // 
             // vehicle
             // 
             this.vehicle.Dock = System.Windows.Forms.DockStyle.Top;
@@ -123,14 +205,6 @@ namespace Vortex_Services
             this.vehicle.TabIndex = 9;
             this.vehicle.UseVisualStyleBackColor = true;
             this.vehicle.Click += new System.EventHandler(this.vehicle_Click);
-            // 
-            // panel8
-            // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 456);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(93, 50);
-            this.panel8.TabIndex = 8;
             // 
             // update
             // 
@@ -147,14 +221,6 @@ namespace Vortex_Services
             this.update.UseVisualStyleBackColor = true;
             this.update.Click += new System.EventHandler(this.update_Click);
             // 
-            // panel7
-            // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 347);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(93, 50);
-            this.panel7.TabIndex = 6;
-            // 
             // search
             // 
             this.search.Dock = System.Windows.Forms.DockStyle.Top;
@@ -169,14 +235,6 @@ namespace Vortex_Services
             this.search.TabIndex = 5;
             this.search.UseVisualStyleBackColor = true;
             this.search.Click += new System.EventHandler(this.search_Click);
-            // 
-            // panel6
-            // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 238);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(93, 50);
-            this.panel6.TabIndex = 4;
             // 
             // checkin
             // 
@@ -193,14 +251,6 @@ namespace Vortex_Services
             this.checkin.UseVisualStyleBackColor = true;
             this.checkin.Click += new System.EventHandler(this.checkin_Click);
             // 
-            // panel5
-            // 
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 129);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(93, 50);
-            this.panel5.TabIndex = 2;
-            // 
             // home
             // 
             this.home.Dock = System.Windows.Forms.DockStyle.Top;
@@ -216,60 +266,12 @@ namespace Vortex_Services
             this.home.UseVisualStyleBackColor = true;
             this.home.Click += new System.EventHandler(this.home_Click);
             // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(93, 70);
-            this.panel4.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(93, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(931, 44);
-            this.panel2.TabIndex = 1;
-            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown);
-            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMove);
-            this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUp);
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(861, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(70, 44);
-            this.panel3.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(70, 44);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // mainpanel
-            // 
-            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainpanel.Location = new System.Drawing.Point(93, 44);
-            this.mainpanel.Name = "mainpanel";
-            this.mainpanel.Size = new System.Drawing.Size(931, 685);
-            this.mainpanel.TabIndex = 2;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1024, 729);
+            this.ClientSize = new System.Drawing.Size(1135, 729);
             this.Controls.Add(this.mainpanel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -280,10 +282,10 @@ namespace Vortex_Services
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.MainForm_Load_1);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.indicator)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.indicator)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -30,8 +30,8 @@ namespace Vortex_Services
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateV));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.add = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.reset = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.label9 = new System.Windows.Forms.Label();
@@ -43,15 +43,15 @@ namespace Vortex_Services
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkout = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
-            this.checkin = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.address = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.phone = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.name = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
-            this.kryptonTextBox8 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.description = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.odono = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.vehicleno = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.checkin = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.checkout = new Guna.UI2.WinForms.Guna2DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,11 +74,11 @@ namespace Vortex_Services
             this.add.ColorContrastOnClick = 45;
             this.add.ColorContrastOnHover = 45;
             this.add.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.add.CustomizableEdges = borderEdges5;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.add.CustomizableEdges = borderEdges1;
             this.add.DialogResult = System.Windows.Forms.DialogResult.None;
             this.add.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.add.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -163,11 +163,11 @@ namespace Vortex_Services
             this.reset.ColorContrastOnClick = 45;
             this.reset.ColorContrastOnHover = 45;
             this.reset.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.reset.CustomizableEdges = borderEdges6;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.reset.CustomizableEdges = borderEdges2;
             this.reset.DialogResult = System.Windows.Forms.DialogResult.None;
             this.reset.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.reset.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -297,7 +297,7 @@ namespace Vortex_Services
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(462, 211);
+            this.label8.Location = new System.Drawing.Point(506, 214);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(137, 29);
             this.label8.TabIndex = 32;
@@ -307,7 +307,7 @@ namespace Vortex_Services
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(462, 147);
+            this.label7.Location = new System.Drawing.Point(506, 147);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(158, 29);
             this.label7.TabIndex = 26;
@@ -323,52 +323,12 @@ namespace Vortex_Services
             this.label1.TabIndex = 25;
             this.label1.Text = "Vehicle No";
             // 
-            // checkout
-            // 
-            this.checkout.Location = new System.Drawing.Point(199, 458);
-            this.checkout.Multiline = true;
-            this.checkout.Name = "checkout";
-            this.checkout.Size = new System.Drawing.Size(220, 47);
-            this.checkout.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.checkout.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.checkout.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.checkout.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.checkout.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.checkout.StateCommon.Border.Rounding = 10;
-            this.checkout.StateCommon.Border.Width = 3;
-            this.checkout.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.checkout.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkout.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
-            this.checkout.TabIndex = 23;
-            // 
-            // checkin
-            // 
-            this.checkin.Location = new System.Drawing.Point(199, 394);
-            this.checkin.Multiline = true;
-            this.checkin.Name = "checkin";
-            this.checkin.Size = new System.Drawing.Size(220, 47);
-            this.checkin.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.checkin.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.checkin.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.checkin.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.checkin.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.checkin.StateCommon.Border.Rounding = 10;
-            this.checkin.StateCommon.Border.Width = 3;
-            this.checkin.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.checkin.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkin.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
-            this.checkin.TabIndex = 22;
-            // 
             // address
             // 
             this.address.Location = new System.Drawing.Point(199, 330);
             this.address.Multiline = true;
             this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(220, 47);
+            this.address.Size = new System.Drawing.Size(263, 47);
             this.address.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.address.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.address.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -388,7 +348,7 @@ namespace Vortex_Services
             this.phone.Location = new System.Drawing.Point(199, 266);
             this.phone.Multiline = true;
             this.phone.Name = "phone";
-            this.phone.Size = new System.Drawing.Size(220, 47);
+            this.phone.Size = new System.Drawing.Size(263, 47);
             this.phone.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.phone.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.phone.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -408,7 +368,7 @@ namespace Vortex_Services
             this.name.Location = new System.Drawing.Point(199, 202);
             this.name.Multiline = true;
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(220, 47);
+            this.name.Size = new System.Drawing.Size(263, 47);
             this.name.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.name.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.name.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -423,32 +383,32 @@ namespace Vortex_Services
             this.name.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.name.TabIndex = 19;
             // 
-            // kryptonTextBox8
+            // description
             // 
-            this.kryptonTextBox8.Location = new System.Drawing.Point(652, 211);
-            this.kryptonTextBox8.Multiline = true;
-            this.kryptonTextBox8.Name = "kryptonTextBox8";
-            this.kryptonTextBox8.Size = new System.Drawing.Size(220, 285);
-            this.kryptonTextBox8.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.kryptonTextBox8.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.kryptonTextBox8.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.kryptonTextBox8.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.description.Location = new System.Drawing.Point(696, 211);
+            this.description.Multiline = true;
+            this.description.Name = "description";
+            this.description.Size = new System.Drawing.Size(263, 285);
+            this.description.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.description.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.description.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.description.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonTextBox8.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonTextBox8.StateCommon.Border.Rounding = 10;
-            this.kryptonTextBox8.StateCommon.Border.Width = 3;
-            this.kryptonTextBox8.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.kryptonTextBox8.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonTextBox8.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
-            this.kryptonTextBox8.TabIndex = 18;
+            this.description.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.description.StateCommon.Border.Rounding = 10;
+            this.description.StateCommon.Border.Width = 3;
+            this.description.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
+            this.description.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.description.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
+            this.description.TabIndex = 18;
             // 
             // odono
             // 
-            this.odono.Location = new System.Drawing.Point(652, 138);
+            this.odono.Location = new System.Drawing.Point(696, 138);
             this.odono.Multiline = true;
             this.odono.Name = "odono";
-            this.odono.Size = new System.Drawing.Size(220, 47);
+            this.odono.Size = new System.Drawing.Size(263, 47);
             this.odono.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.odono.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.odono.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -468,7 +428,7 @@ namespace Vortex_Services
             this.vehicleno.Location = new System.Drawing.Point(199, 138);
             this.vehicleno.Multiline = true;
             this.vehicleno.Name = "vehicleno";
-            this.vehicleno.Size = new System.Drawing.Size(220, 47);
+            this.vehicleno.Size = new System.Drawing.Size(263, 47);
             this.vehicleno.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.vehicleno.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.vehicleno.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -492,11 +452,53 @@ namespace Vortex_Services
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
             // 
+            // checkin
+            // 
+            this.checkin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.checkin.BorderRadius = 10;
+            this.checkin.BorderThickness = 3;
+            this.checkin.CheckedState.Parent = this.checkin;
+            this.checkin.FillColor = System.Drawing.Color.White;
+            this.checkin.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.checkin.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.checkin.HoverState.Parent = this.checkin;
+            this.checkin.Location = new System.Drawing.Point(199, 394);
+            this.checkin.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.checkin.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.checkin.Name = "checkin";
+            this.checkin.ShadowDecoration.Parent = this.checkin;
+            this.checkin.Size = new System.Drawing.Size(302, 47);
+            this.checkin.TabIndex = 37;
+            this.checkin.Value = new System.DateTime(2021, 10, 4, 11, 59, 22, 26);
+            // 
+            // checkout
+            // 
+            this.checkout.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.checkout.BorderRadius = 10;
+            this.checkout.BorderThickness = 3;
+            this.checkout.CheckedState.Parent = this.checkout;
+            this.checkout.FillColor = System.Drawing.Color.White;
+            this.checkout.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.checkout.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.checkout.HoverState.Parent = this.checkout;
+            this.checkout.Location = new System.Drawing.Point(199, 458);
+            this.checkout.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.checkout.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.checkout.Name = "checkout";
+            this.checkout.ShadowDecoration.Parent = this.checkout;
+            this.checkout.Size = new System.Drawing.Size(302, 47);
+            this.checkout.TabIndex = 38;
+            this.checkout.Value = new System.DateTime(2021, 10, 4, 11, 59, 22, 26);
+            // 
             // UpdateV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.checkout);
+            this.Controls.Add(this.checkin);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.add);
             this.Controls.Add(this.reset);
@@ -509,16 +511,14 @@ namespace Vortex_Services
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkout);
-            this.Controls.Add(this.checkin);
             this.Controls.Add(this.address);
             this.Controls.Add(this.phone);
             this.Controls.Add(this.name);
-            this.Controls.Add(this.kryptonTextBox8);
+            this.Controls.Add(this.description);
             this.Controls.Add(this.odono);
             this.Controls.Add(this.vehicleno);
             this.Name = "UpdateV";
-            this.Size = new System.Drawing.Size(931, 685);
+            this.Size = new System.Drawing.Size(1042, 685);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -538,14 +538,14 @@ namespace Vortex_Services
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label1;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox checkout;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox checkin;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox address;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox phone;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox name;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox8;
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox description;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox odono;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox vehicleno;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker checkin;
+        private Guna.UI2.WinForms.Guna2DateTimePicker checkout;
     }
 }

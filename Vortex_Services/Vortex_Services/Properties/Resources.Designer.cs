@@ -73,6 +73,16 @@ namespace Vortex_Services.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group {
+            get {
+                object obj = ResourceManager.GetObject("Group", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SL_092920_35860_06__Converted__01 {
             get {
                 object obj = ResourceManager.GetObject("SL-092920-35860-06 [Converted]-01", resourceCulture);
