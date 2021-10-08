@@ -57,10 +57,11 @@ namespace Vortex_Services
             // 
             // vehicleno
             // 
-            this.vehicleno.Location = new System.Drawing.Point(199, 138);
+            this.vehicleno.Location = new System.Drawing.Point(149, 112);
+            this.vehicleno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.vehicleno.Multiline = true;
             this.vehicleno.Name = "vehicleno";
-            this.vehicleno.Size = new System.Drawing.Size(263, 47);
+            this.vehicleno.Size = new System.Drawing.Size(197, 38);
             this.vehicleno.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.vehicleno.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.vehicleno.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -71,26 +72,28 @@ namespace Vortex_Services
             this.vehicleno.StateCommon.Border.Rounding = 10;
             this.vehicleno.StateCommon.Border.Width = 3;
             this.vehicleno.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.vehicleno.StateCommon.Content.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vehicleno.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vehicleno.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.vehicleno.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(45, 147);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(34, 119);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 29);
+            this.label1.Size = new System.Drawing.Size(114, 24);
             this.label1.TabIndex = 12;
             this.label1.Text = "Vehicle No";
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(199, 202);
+            this.name.Location = new System.Drawing.Point(149, 164);
+            this.name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.name.Multiline = true;
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(263, 47);
+            this.name.Size = new System.Drawing.Size(197, 38);
             this.name.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.name.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.name.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -101,26 +104,28 @@ namespace Vortex_Services
             this.name.StateCommon.Border.Rounding = 10;
             this.name.StateCommon.Border.Width = 3;
             this.name.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.name.StateCommon.Content.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.name.TabIndex = 11;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(45, 211);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(34, 171);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 29);
+            this.label2.Size = new System.Drawing.Size(65, 24);
             this.label2.TabIndex = 12;
             this.label2.Text = "Name";
             // 
             // phone
             // 
-            this.phone.Location = new System.Drawing.Point(199, 266);
+            this.phone.Location = new System.Drawing.Point(149, 216);
+            this.phone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.phone.Multiline = true;
             this.phone.Name = "phone";
-            this.phone.Size = new System.Drawing.Size(263, 47);
+            this.phone.Size = new System.Drawing.Size(197, 38);
             this.phone.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.phone.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.phone.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -131,26 +136,28 @@ namespace Vortex_Services
             this.phone.StateCommon.Border.Rounding = 10;
             this.phone.StateCommon.Border.Width = 3;
             this.phone.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.phone.StateCommon.Content.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phone.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phone.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.phone.TabIndex = 11;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(45, 275);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(34, 223);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 29);
+            this.label3.Size = new System.Drawing.Size(104, 24);
             this.label3.TabIndex = 12;
             this.label3.Text = "Phone No";
             // 
             // address
             // 
-            this.address.Location = new System.Drawing.Point(199, 330);
+            this.address.Location = new System.Drawing.Point(149, 268);
+            this.address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.address.Multiline = true;
             this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(263, 47);
+            this.address.Size = new System.Drawing.Size(197, 38);
             this.address.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.address.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.address.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -161,46 +168,50 @@ namespace Vortex_Services
             this.address.StateCommon.Border.Rounding = 10;
             this.address.StateCommon.Border.Width = 3;
             this.address.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.address.StateCommon.Content.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.address.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.address.TabIndex = 11;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(45, 339);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(34, 275);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 29);
+            this.label4.Size = new System.Drawing.Size(87, 24);
             this.label4.TabIndex = 12;
             this.label4.Text = "Address";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(45, 403);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(34, 327);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 29);
+            this.label5.Size = new System.Drawing.Size(92, 24);
             this.label5.TabIndex = 12;
             this.label5.Text = "Check in";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(45, 467);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(34, 379);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 29);
+            this.label6.Size = new System.Drawing.Size(104, 24);
             this.label6.TabIndex = 12;
             this.label6.Text = "Check out";
             // 
             // odono
             // 
-            this.odono.Location = new System.Drawing.Point(696, 138);
+            this.odono.Location = new System.Drawing.Point(522, 112);
+            this.odono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.odono.Multiline = true;
             this.odono.Name = "odono";
-            this.odono.Size = new System.Drawing.Size(263, 47);
+            this.odono.Size = new System.Drawing.Size(197, 38);
             this.odono.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.odono.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.odono.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -211,26 +222,28 @@ namespace Vortex_Services
             this.odono.StateCommon.Border.Rounding = 10;
             this.odono.StateCommon.Border.Width = 3;
             this.odono.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.odono.StateCommon.Content.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.odono.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.odono.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.odono.TabIndex = 11;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(506, 147);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(380, 119);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(169, 29);
+            this.label7.Size = new System.Drawing.Size(138, 24);
             this.label7.TabIndex = 12;
             this.label7.Text = "ODO meter in";
             // 
             // description
             // 
-            this.description.Location = new System.Drawing.Point(696, 211);
+            this.description.Location = new System.Drawing.Point(522, 171);
+            this.description.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.description.Multiline = true;
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(263, 285);
+            this.description.Size = new System.Drawing.Size(197, 232);
             this.description.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.description.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.description.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
@@ -241,27 +254,29 @@ namespace Vortex_Services
             this.description.StateCommon.Border.Rounding = 10;
             this.description.StateCommon.Border.Width = 3;
             this.description.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.description.StateCommon.Content.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.description.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.description.StateCommon.Content.Padding = new System.Windows.Forms.Padding(15, 7, -1, -1);
             this.description.TabIndex = 11;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(506, 214);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(380, 174);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(147, 29);
+            this.label8.Size = new System.Drawing.Size(115, 24);
             this.label8.TabIndex = 12;
             this.label8.Text = "Description";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(43, 41);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(32, 33);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(150, 39);
+            this.label9.Size = new System.Drawing.Size(130, 31);
             this.label9.TabIndex = 15;
             this.label9.Text = "Check-in";
             // 
@@ -294,7 +309,7 @@ namespace Vortex_Services
             this.reset.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.reset.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.reset.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.reset.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset.ForeColor = System.Drawing.Color.White;
             this.reset.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.reset.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -312,7 +327,8 @@ namespace Vortex_Services
             this.reset.IdleIconLeftImage = null;
             this.reset.IdleIconRightImage = null;
             this.reset.IndicateFocus = false;
-            this.reset.Location = new System.Drawing.Point(248, 543);
+            this.reset.Location = new System.Drawing.Point(186, 441);
+            this.reset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.reset.Name = "reset";
             this.reset.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.reset.OnDisabledState.BorderRadius = 15;
@@ -346,13 +362,14 @@ namespace Vortex_Services
             this.reset.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.reset.OnPressedState.IconLeftImage = null;
             this.reset.OnPressedState.IconRightImage = null;
-            this.reset.Size = new System.Drawing.Size(171, 55);
+            this.reset.Size = new System.Drawing.Size(128, 45);
             this.reset.TabIndex = 16;
             this.reset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.reset.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.reset.TextMarginLeft = 0;
             this.reset.TextPadding = new System.Windows.Forms.Padding(0);
             this.reset.UseDefaultRadiusAndThickness = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // add
             // 
@@ -383,7 +400,7 @@ namespace Vortex_Services
             this.add.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.add.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.add.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.add.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add.ForeColor = System.Drawing.Color.White;
             this.add.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.add.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -401,7 +418,8 @@ namespace Vortex_Services
             this.add.IdleIconLeftImage = null;
             this.add.IdleIconRightImage = null;
             this.add.IndicateFocus = false;
-            this.add.Location = new System.Drawing.Point(50, 543);
+            this.add.Location = new System.Drawing.Point(38, 441);
+            this.add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.add.Name = "add";
             this.add.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.add.OnDisabledState.BorderRadius = 15;
@@ -435,20 +453,22 @@ namespace Vortex_Services
             this.add.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.add.OnPressedState.IconLeftImage = null;
             this.add.OnPressedState.IconRightImage = null;
-            this.add.Size = new System.Drawing.Size(171, 55);
+            this.add.Size = new System.Drawing.Size(128, 45);
             this.add.TabIndex = 16;
             this.add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.add.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.add.TextMarginLeft = 0;
             this.add.TextPadding = new System.Windows.Forms.Padding(0);
             this.add.UseDefaultRadiusAndThickness = true;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(196)))), ((int)(((byte)(25)))));
-            this.pictureBox1.Location = new System.Drawing.Point(50, 79);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 64);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 6);
+            this.pictureBox1.Size = new System.Drawing.Size(118, 5);
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
@@ -459,16 +479,17 @@ namespace Vortex_Services
             this.checkin.BorderThickness = 3;
             this.checkin.CheckedState.Parent = this.checkin;
             this.checkin.FillColor = System.Drawing.Color.White;
-            this.checkin.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.checkin.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.checkin.HoverState.Parent = this.checkin;
-            this.checkin.Location = new System.Drawing.Point(199, 394);
+            this.checkin.Location = new System.Drawing.Point(149, 320);
+            this.checkin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkin.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.checkin.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.checkin.Name = "checkin";
             this.checkin.ShadowDecoration.Parent = this.checkin;
-            this.checkin.Size = new System.Drawing.Size(302, 47);
+            this.checkin.Size = new System.Drawing.Size(226, 38);
             this.checkin.TabIndex = 19;
             this.checkin.Value = new System.DateTime(2021, 10, 4, 11, 59, 22, 26);
             // 
@@ -479,22 +500,23 @@ namespace Vortex_Services
             this.checkout.BorderThickness = 3;
             this.checkout.CheckedState.Parent = this.checkout;
             this.checkout.FillColor = System.Drawing.Color.White;
-            this.checkout.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.checkout.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.checkout.HoverState.Parent = this.checkout;
-            this.checkout.Location = new System.Drawing.Point(199, 458);
+            this.checkout.Location = new System.Drawing.Point(149, 372);
+            this.checkout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkout.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.checkout.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.checkout.Name = "checkout";
             this.checkout.ShadowDecoration.Parent = this.checkout;
-            this.checkout.Size = new System.Drawing.Size(302, 47);
+            this.checkout.Size = new System.Drawing.Size(226, 38);
             this.checkout.TabIndex = 20;
             this.checkout.Value = new System.DateTime(2021, 10, 4, 11, 59, 22, 26);
             // 
             // Check_in
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.checkout);
@@ -517,8 +539,9 @@ namespace Vortex_Services
             this.Controls.Add(this.description);
             this.Controls.Add(this.odono);
             this.Controls.Add(this.vehicleno);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Check_in";
-            this.Size = new System.Drawing.Size(1042, 685);
+            this.Size = new System.Drawing.Size(782, 557);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
