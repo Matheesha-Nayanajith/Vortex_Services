@@ -164,5 +164,33 @@ namespace Vortex_Services.Models
             }
         }
 
+        public bool CheckOut()
+        {
+            SqlConnection connection = new SqlConnection(connectionString);
+
+            connection.Open();
+
+            string qCheckOurt = "INSERT INTO CheckOut(Vehicle_No, Name, Phone_No, Address, Check_in, Check_out, ODO_meter, Description) " + "select Vehicle_No, Name, Phone_No, Address, Check_in, Check_out, ODO_meter, Description FROM CheckIn " + "WHERE Vehicle_No = @Vehicle_No";
+            SqlCommand cmd = new SqlCommand(qCheckOurt, connection);
+
+            cmd.Parameters.AddWithValue("@Vehicle_No", vehNo);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+                return state = true;
+            }
+            catch (SqlException)
+            {
+
+                return state = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+
     }
 }

@@ -30,7 +30,7 @@ namespace Vortex_Services
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Check_out));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.checkoutview = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -53,10 +53,10 @@ namespace Vortex_Services
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(43, 41);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(170, 39);
+            this.label9.Size = new System.Drawing.Size(182, 38);
             this.label9.TabIndex = 20;
             this.label9.Text = "Check Out";
             // 
@@ -88,17 +88,17 @@ namespace Vortex_Services
             this.refresh.ColorContrastOnClick = 45;
             this.refresh.ColorContrastOnHover = 45;
             this.refresh.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.refresh.CustomizableEdges = borderEdges1;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.refresh.CustomizableEdges = borderEdges2;
             this.refresh.DialogResult = System.Windows.Forms.DialogResult.None;
             this.refresh.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.refresh.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.refresh.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.refresh.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.refresh.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.refresh.ForeColor = System.Drawing.Color.White;
             this.refresh.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.refresh.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -157,6 +157,7 @@ namespace Vortex_Services
             this.refresh.TextMarginLeft = 0;
             this.refresh.TextPadding = new System.Windows.Forms.Padding(0);
             this.refresh.UseDefaultRadiusAndThickness = true;
+            this.refresh.Click += new System.EventHandler(this.refresh_Click);
             // 
             // Check_out
             // 
@@ -169,6 +170,7 @@ namespace Vortex_Services
             this.Controls.Add(this.label9);
             this.Name = "Check_out";
             this.Size = new System.Drawing.Size(1042, 685);
+            this.Load += new System.EventHandler(this.Check_out_Load);
             ((System.ComponentModel.ISupportInitialize)(this.checkoutview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
