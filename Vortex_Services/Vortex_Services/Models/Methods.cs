@@ -128,5 +128,41 @@ namespace Vortex_Services.Models
                 connection.Close();
             }
         }
+        public bool UpdateVehicle()
+        {
+
+            SqlConnection connection = new SqlConnection(connectionString);
+
+            connection.Open();
+
+            string qUpdate = "UPDATE CheckIn SET Name=@Name, Phone_No=@Phone_No, Address=@Address, " + "Check_in=@Check_in, Check_out=@Check_out, ODO_meter=@ODO_meter, " + "Description=@Description WHERE Vehicle_No=@Vehicle_No";
+            SqlCommand cmd = new SqlCommand(qUpdate, connection);
+
+
+            cmd.Parameters.AddWithValue("@Name", name);
+            cmd.Parameters.AddWithValue("@Phone_No", phone);
+            cmd.Parameters.AddWithValue("@Address", address);
+            cmd.Parameters.AddWithValue("@Check_in", checkIn);
+            cmd.Parameters.AddWithValue("@Check_out", checkOut);
+            cmd.Parameters.AddWithValue("@ODO_meter", ODOm);
+            cmd.Parameters.AddWithValue("@Description", desc);
+            cmd.Parameters.AddWithValue("@Vehicle_No", vehNo);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+                return state = true;
+            }
+            catch (SqlException)
+            {
+
+                return state = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
     }
 }
