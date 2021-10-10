@@ -51,13 +51,13 @@ namespace Vortex_Services
             if (met.state == true)
             {
                 MessageBox.Show("Successfully Checked Out");
+                met.Delete();
             }
             else
             {
                 MessageBox.Show("Check Out Failed");
             }
 
-            met.Delete();
         }
     }
 }

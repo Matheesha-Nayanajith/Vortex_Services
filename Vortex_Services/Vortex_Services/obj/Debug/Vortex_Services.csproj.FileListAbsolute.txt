@@ -178,3 +178,18 @@ E:\Git\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services
 E:\Git\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb
 E:\Git\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex.mdf
 E:\Git\Vortex_Services\Vortex_Services\Vortex_Services\bin\Debug\Vortex_log.ldf
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.AssemblyReference.cache
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_in.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Check_out.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Home.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.MainForm.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Ongoing.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.Properties.Resources.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.SearchV.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.splash_screen.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.UpdateV.resources
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.GenerateResource.cache
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe.licenses
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.csproj.CoreCompileInputs.cache
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.exe
+C:\Users\dinithi\Desktop\New folder\Vortex_Services\Vortex_Services\Vortex_Services\obj\Debug\Vortex_Services.pdb

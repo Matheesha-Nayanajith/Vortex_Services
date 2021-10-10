@@ -12,8 +12,8 @@ namespace Vortex_Services.Models
     {
         public string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Git\Vortex_Services\Vortex_Services\Vortex_Services\Vortex.mdf;Integrated Security=True";
        
-        public string vehNo, name, address, checkIn, checkOut, desc;
-        public int phone, ODOm;
+        private string vehNo, name, address, checkIn, checkOut, desc;
+        private int phone, ODOm;
         public bool state = false;
 
         //data retrive
