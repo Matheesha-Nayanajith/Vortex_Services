@@ -42,10 +42,10 @@ namespace Vortex_Services
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(43, 41);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(278, 39);
+            this.label9.Size = new System.Drawing.Size(292, 38);
             this.label9.TabIndex = 18;
             this.label9.Text = "Ongoing Services";
             // 
@@ -98,7 +98,7 @@ namespace Vortex_Services
             this.refresh.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.refresh.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.refresh.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.refresh.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.refresh.ForeColor = System.Drawing.Color.White;
             this.refresh.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.refresh.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -157,6 +157,7 @@ namespace Vortex_Services
             this.refresh.TextMarginLeft = 0;
             this.refresh.TextPadding = new System.Windows.Forms.Padding(0);
             this.refresh.UseDefaultRadiusAndThickness = true;
+            this.refresh.Click += new System.EventHandler(this.refresh_Click);
             // 
             // Ongoing
             // 
@@ -169,6 +170,7 @@ namespace Vortex_Services
             this.Controls.Add(this.label9);
             this.Name = "Ongoing";
             this.Size = new System.Drawing.Size(1042, 685);
+            this.Load += new System.EventHandler(this.Ongoing_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ongoingservices)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

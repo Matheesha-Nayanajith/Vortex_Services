@@ -74,7 +74,7 @@ namespace Vortex_Services
             this.reset.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.reset.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.reset.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.reset.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset.ForeColor = System.Drawing.Color.White;
             this.reset.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.reset.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -133,6 +133,7 @@ namespace Vortex_Services
             this.reset.TextMarginLeft = 0;
             this.reset.TextPadding = new System.Windows.Forms.Padding(0);
             this.reset.UseDefaultRadiusAndThickness = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // searchview
             // 
@@ -148,10 +149,10 @@ namespace Vortex_Services
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(43, 41);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(260, 39);
+            this.label9.Size = new System.Drawing.Size(275, 38);
             this.label9.TabIndex = 22;
             this.label9.Text = "Search a vehicle";
             // 
@@ -184,7 +185,7 @@ namespace Vortex_Services
             this.searchveh.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.searchveh.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.searchveh.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.searchveh.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchveh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchveh.ForeColor = System.Drawing.Color.White;
             this.searchveh.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.searchveh.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -247,10 +248,10 @@ namespace Vortex_Services
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(48, 119);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 29);
+            this.label1.Size = new System.Drawing.Size(141, 29);
             this.label1.TabIndex = 27;
             this.label1.Text = "Vehicle No";
             // 
@@ -303,7 +304,7 @@ namespace Vortex_Services
             this.checkout.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.checkout.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.checkout.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.checkout.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkout.ForeColor = System.Drawing.Color.White;
             this.checkout.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.checkout.IconLeftCursor = System.Windows.Forms.Cursors.Default;

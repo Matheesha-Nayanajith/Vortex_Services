@@ -164,6 +164,7 @@ namespace Vortex_Services.Models
             }
         }
 
+        //Check out Method
         public bool CheckOut()
         {
             SqlConnection connection = new SqlConnection(connectionString);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Vortex_Services.Models;
 
 namespace Vortex_Services
 {
@@ -31,6 +32,14 @@ namespace Vortex_Services
         public SearchV()
         {
             InitializeComponent();
+        }
+        Methods met = new Methods();
+        public string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Git\Vortex_Services\Vortex_Services\Vortex_Services\Vortex.mdf;Integrated Security=True";
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            vehicleno.Clear();
+            searchview.DataSource = null;
         }
     }
 }
