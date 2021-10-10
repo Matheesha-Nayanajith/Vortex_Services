@@ -41,5 +41,23 @@ namespace Vortex_Services
             vehicleno.Clear();
             searchview.DataSource = null;
         }
+
+        private void checkout_Click(object sender, EventArgs e)
+        {
+            met.setVehicleNo(vehicleno.Text);
+
+            met.CheckOut();
+
+            if (met.state == true)
+            {
+                MessageBox.Show("Successfully Checked Out");
+            }
+            else
+            {
+                MessageBox.Show("Check Out Failed");
+            }
+
+            met.Delete();
+        }
     }
 }

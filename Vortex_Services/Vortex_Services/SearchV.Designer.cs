@@ -363,6 +363,7 @@ namespace Vortex_Services
             this.checkout.TextMarginLeft = 0;
             this.checkout.TextPadding = new System.Windows.Forms.Padding(0);
             this.checkout.UseDefaultRadiusAndThickness = true;
+            this.checkout.Click += new System.EventHandler(this.checkout_Click);
             // 
             // pictureBox1
             // 

@@ -192,6 +192,18 @@ namespace Vortex_Services.Models
             }
         }
 
+        public void Delete()
+        {
+            SqlConnection connection = new SqlConnection(connectionString);
 
+            connection.Open();
+
+            string qDelete = "DELETE CheckIn WHERE Vehicle_No = @Vehicle_No";
+
+            SqlCommand cmd = new SqlCommand(qDelete, connection);
+            cmd.Parameters.AddWithValue("@Vehicle_No", vehNo);
+            cmd.ExecuteNonQuery();
+            connection.Close();
+        }
     }
 }
