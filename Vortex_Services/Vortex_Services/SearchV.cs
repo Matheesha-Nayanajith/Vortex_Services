@@ -44,7 +44,14 @@ namespace Vortex_Services
 
         private void checkout_Click(object sender, EventArgs e)
         {
-            met.setVehicleNo(vehicleno.Text);
+            if (vehicleno == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setVehicleNo(vehicleno.Text);
+            }
 
             met.CheckOut();
 
