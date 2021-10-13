@@ -38,14 +38,77 @@ namespace Vortex_Services
 
         private void add_Click(object sender, EventArgs e)
         {
-            met.setVehicleNo(vehicleno.Text);
-            met.setName(name.Text);
-            met.setPhone(int.Parse(phone.Text));
-            met.setAddress(address.Text);
-            met.setCheckIn(checkin.Text);
-            met.setCheckOut(checkout.Text);
-            met.setODO(int.Parse(odono.Text));
-            met.setDescription(description.Text);
+            if (vehicleno == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setVehicleNo(vehicleno.Text);
+            }
+
+            if (name == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setName(name.Text);
+            }
+
+            if (phone == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setPhone(int.Parse(phone.Text));
+            }
+
+            if (address == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setAddress(address.Text);
+            }
+
+            if (checkin == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setCheckIn(checkin.Text);
+            }
+
+            if (checkout == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setCheckOut(checkout.Text);
+            }
+
+            if (odono == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setODO(int.Parse(odono.Text));
+            }
+
+            if (description == null)
+            {
+                MessageBox.Show("Input Fields cannot be empty!");
+            }
+            else
+            {
+                met.setDescription(description.Text);
+            }
 
             met.CheckIn();
 
